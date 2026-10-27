@@ -4,7 +4,7 @@ One entry per session, newest at the bottom. Copy the block from [templates/day-
 
 ---
 
-### Day 1 — YYYY-MM-DD
+### Day 1 — 2026-10-26
 **Worked on:** 
 **Time:** 
 **Code:** 

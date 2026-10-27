@@ -2,7 +2,7 @@
 
 A four-week, build-everything-yourself course I'm running on myself: from writing a GPT by hand, to evaluating LLM apps, to working with coding agents, to designing systems that scale. About an hour a day, every exercise committed here.
 
-**Started:** YYYY-MM-DD · **Hardware:** MacBook (Apple Silicon, no discrete GPU) · **Daily log:** [LOG.md](LOG.md)
+**Started:** 2026-10-26 · **Hardware:** MacBook (Apple Silicon, no discrete GPU) · **Daily log:** [LOG.md](LOG.md)
 
 ## Progress
 

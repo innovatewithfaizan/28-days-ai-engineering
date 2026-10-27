@@ -1,0 +1,17 @@
+[project]
+name = "28-days-ai-engineering"
+version = "0.1.0"
+description = "A four-week self-run course in AI engineering, coded along"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.4",
+    "tiktoken>=0.7",
+    "numpy",
+    "matplotlib",
+    "tqdm",
+    "jupyterlab",
+    "fastapi",
+    "uvicorn",
+    "httpx",
+    "pytest",
+]

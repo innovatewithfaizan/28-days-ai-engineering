@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# model weights and datasets stay out of git
+*.pt
+*.pth
+*.bin
+*.safetensors
+data/
+checkpoints/
+.env
+*.sqlite3

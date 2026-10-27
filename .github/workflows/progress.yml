@@ -1,0 +1,28 @@
+name: Update progress
+
+on:
+  push:
+    branches: [main]
+    paths: ["week-*/README.md"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  progress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/progress.py
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -am "chore: update progress table"
+            git push
+          fi

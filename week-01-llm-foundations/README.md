@@ -17,3 +17,5 @@
 
 ## Notes
 What surprised me, what I'd explain differently, open questions.
+
+- [Micrograd, as I'd answer it in an interview](notes/micrograd-interview-answers.md): every concept from lecture 1, with the numbers re-checked
